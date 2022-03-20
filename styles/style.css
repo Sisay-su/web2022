@@ -10,6 +10,11 @@ body {
 }
 
 header {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+  justify-items: end;
+  height: 3.5rem;
+  padding-top: 0.8rem;
   background-color: #17E1EC;
   color: #293030;
   font-size: 0.5rem;
