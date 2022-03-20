@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
   justify-items: end;
   height: 3.5rem;
