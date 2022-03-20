@@ -22,6 +22,9 @@ header {
 }
 
 nav ul {
+  display: flex;
+  grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+  justify-items: center;
   list-style-type: none;
 }
 
