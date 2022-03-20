@@ -63,7 +63,7 @@ nav ul li a:hover {
 
 footer {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+  text-align: center;
   background-color: #242021;
   color: #fff;
 }
