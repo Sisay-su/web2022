@@ -69,16 +69,6 @@ nav ul li:nth-child(2) a:hover {
   padding: 0 1em 0 1em;
 }
 
-figure {
-  padding: 1em 1em 0 1em;
-}
-
-figure img {
-  width: 100%;
-  height: 100%;
-  border-radius: 50px;
-}
-
 footer {
   background-color: #242021;
   color: #fff;
