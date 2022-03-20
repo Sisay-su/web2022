@@ -64,6 +64,7 @@ nav ul li a:hover {
 footer {
   display: grid;
   text-align: center;
+  padding-top: 0.3rem;
   background-color: #242021;
   color: #fff;
 }
