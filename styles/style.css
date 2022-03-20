@@ -10,8 +10,8 @@ body {
 }
 
 header {
-  display: flex;
-  grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
   justify-items: end;
   height: 3.5rem;
   padding-top: 0.8rem;
