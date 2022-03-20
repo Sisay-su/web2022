@@ -21,7 +21,7 @@ nav ul {
 }
 
 nav ul li {
-  background-color: #bb4430;
+  background-color: #293030;
   border: 1px solid #bb4430;
   padding: 1em 4em 1em 4em;
   font-weight: bold;
@@ -37,23 +37,6 @@ nav ul li a:hover {
   color: #000;
   text-transform: uppercase;
   text-decoration: none;
-}
-
-nav ul li:nth-child(2) {
-  background-color: #f3dfa2;
-  border: 1px solid #f3dfa2;
-  padding: 1em 4em 1em 4em;
-  font-weight: bold;
-}
-
-nav ul li:nth-child(2) a {
-  color: #000;
-}
-
-nav ul li:nth-child(2) a:hover {
-  color: #fff;
-  text-transform: uppercase;
-  text-decoration: underline;
 }
 
 .wrapper {
