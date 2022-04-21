@@ -57,6 +57,12 @@ nav ul li a:hover {
   padding: 0 0 1rem 2rem;
 }
 
+#secondary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+  padding: 0 0 1rem 2rem;
+}
+
 #main_article {
   padding: 0 1em 0 1em;
   font-size: 1.3rem;
@@ -68,4 +74,32 @@ footer {
   padding-top: 0.3rem;
   background-color: #242021;
   color: #fff;
+}
+
+#img1{
+  float:middle;
+}
+#img2{
+  float:middle;
+}
+
+#img3{
+  float:middle;
+}
+
+#img4{
+  float:middle;
+}
+
+#img5{
+  float:middle;
+}
+
+#img6{
+  float:middle;
+}
+
+.image {
+  width: 100%
+  height: auto;
 }
