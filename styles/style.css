@@ -3,16 +3,17 @@ html {
 }
 
 body {
-  padding: 0;
+  padding: 20px;
   margin: 0;
   background-color: #ffffff;
   font-family: arial, sans-serif;
+  height: 100vh;
 }
 
 header {
   display: grid;
   text-align: center;
-  height: 4rem;
+  height: 5rem;
   padding-top: 0.3rem;
   background-color: #242021;
   color: #fff;
@@ -72,6 +73,64 @@ footer {
   display: grid;
   text-align: center;
   padding-top: 0.3rem;
+  height: 8rem;
   background-color: #242021;
   color: #fff;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.table td,.table th{
+  padding:12px 15px;
+  border:1px solid #ddd;
+  text-align: center;
+  font-size:16px;
+}
+
+.table th{
+	background-color: darkblue;
+	color:#ffffff;
+}
+
+.table tbody tr:nth-child(even){
+	background-color: #f5f5f5;
+}
+
+/*responsive*/
+
+@media(max-width: 500px){
+	.table thead{
+		display: none;
+	}
+
+	.table, .table tbody, .table tr, .table td{
+		display: block;
+		width: 100%;
+	}
+	.table tr{
+		margin-bottom:15px;
+	}
+	.table td{
+		text-align: right;
+		padding-left: 50%;
+		text-align: right;
+		position: relative;
+	}
+	.table td::before{
+		content: attr(data-label);
+		position: absolute;
+		left:0;
+		width: 50%;
+		padding-left:15px;
+		font-size:15px;
+		font-weight: bold;
+		text-align: left;
+	}
 }
