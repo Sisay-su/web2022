@@ -7,7 +7,6 @@
 	<title>Health and Fitness</title>
 </head>
 <body>
-
   <header>
       <h1>Health and Fitness Website</h1>
       <a href="index.html">
@@ -24,36 +23,23 @@
   </nav>
 <br>
 
-<div class="wrapper">
-
-  <div id="primary">
-
-    <article id="main_article">
-			<h2>Health and Fitness guide website</h2>
-      <p>Regular exercise and physical activity are the keys to good health and
-      happiness. Exercising burns fat, builds muscle, lowers cholesterol,
-      reduces  stress and anxiety, and allows us to sleep soundly. We match
-      resources and nutrition that are critical to your exercise needs at every
-      fitness level in this guide.</p>
-
-		<br>
-      <p>Regular physical activity can help you gain muscle strength and
-				 endurance. Exercise helps your cardiovascular system work more
-				 efficiently by delivering oxygen and nutrients to your tissues.
-				 And as your heart and lung health improves, you will have more
-				 energy to complete daily tasks.</P>
-
-    </article>
-
-<img srcset="images/pic1copy.png 200w, images/pic1.png 553w"
-		 sizes="(max-width: 553px) 200px, 553px"
-		 src= "images/pic1.png"
-		 alt="My Logo" title="My Logo">
-
-  </div>
-
-</div>
+<h2>Any Questions or Comments in Mind?</h2>
+<form action="scripts/action.php" method="post" class="basic-form">
+<label for="fname">First Name: </label>
+<input type="text" name="fname" id="fname" required>
 <br>
+<br>
+<label for="lname">Last Name: </label>
+<input type="text" name="lname" id="lname" required>
+<br>
+<br>
+<label for="email">Email address: </label>
+<input type="text" name="email" id="email" required>
+<br>
+<p><label for="thoughts">Leave questions or comments below:</label></p>
+<textarea name="thoughts" id="thoughts" rows="5" cols="100"></textarea>
+<p><input type="submit" value="submit!"></p>
+</form>
 <br>
 <footer>
 <br>
